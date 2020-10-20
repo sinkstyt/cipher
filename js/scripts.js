@@ -42,3 +42,9 @@ function startWithMiddleLetter(str) {
 }
 let scrambledSentence = startWithMiddleLetter(sentence) + attachTwoCapsAtEnd();
 // Now reverse scrambledSentence:
+function reverseStr(str) {
+  return str.split('').reverse().join('');
+}
+let finalWeirdString = reverseStr(scrambledSentence);
+
+// Use jQuery to create two clickable images or pieces of text in your HTML page. When you click on the left one, it should show you the original sentence. If you click the other one, it should hide the original sentence and show the encoded one. Use Bootstrap to organize and style your page.
